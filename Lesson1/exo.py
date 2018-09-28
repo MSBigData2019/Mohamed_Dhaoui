@@ -16,7 +16,7 @@ def array_front9(nums):
     longueur=min(len(nums) & 4)
     res=False
     i=0 
-    while(i<len(nums) and res==False):
+    while(i<longueur and res==False):
         if (nums[i] ==9 ):
             res=True
         i+1
@@ -38,7 +38,7 @@ def last2(string):
         k=k+1
 
     return count
-ch.r
+
 #Write a proramm that returna dictionary of occurences of the alphabet for a given string.
 # Test it with the Lorem upsuj
 #"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
