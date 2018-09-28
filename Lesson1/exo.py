@@ -15,9 +15,11 @@ def string_times(string, n):
 def array_front9(nums):
     longueur=min(len(nums) & 4)
     res=False
-    for i in range(0,longeur) :
+    i=0 
+    while(i<len(nums) and res==False):
         if (nums[i] ==9 ):
             res=True
+        i+1
     return res
 
 # Given a string, return the count of the number of times
