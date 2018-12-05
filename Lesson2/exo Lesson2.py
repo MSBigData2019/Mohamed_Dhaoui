@@ -1,4 +1,4 @@
-######################## performance financières des entreprises sur Reuters #######
+######################## Performance financières des entreprises sur Reuters #######
 
 # coding: utf-8
 import requests
